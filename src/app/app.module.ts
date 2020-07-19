@@ -14,6 +14,8 @@ import { MessagesComponent }    from './messages/messages.component';
 import { AppRoutingModule }     from './app-routing.module';
 import { InMemoryDataService }  from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { CharactersComponent } from './components/characters/characters.component';
+import { CharacterComponent } from './components/character/character.component';
 
 @NgModule({
   imports: [
@@ -35,7 +37,9 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    CharactersComponent,
+    CharacterComponent
   ],
   bootstrap: [ AppComponent ]
 })
